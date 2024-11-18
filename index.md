@@ -11,9 +11,7 @@
   </head>
   <body>
     <h2> MIAW Demo: CRMDEV (sandbox)</h2>
-    <p>
-      Experience a comprehensive demonstration of MIAW, highlighting its robust queue routing capabilities and configuration options. This session showcases how MIAW efficiently manages messaging prioritization, dynamically adjusts queues, and streamlines workflows to optimize performance. You'll also gain insights into configuring MIAW for various operational needs, ensuring seamless integration and enhanced productivity.
-    </p>
+    
     <script type='text/javascript'>
     	function initEmbeddedMessaging() {
     		try {
