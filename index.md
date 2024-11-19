@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>
-      MIAW Demo: CRMDEV (sandbox)
+      MIAW Demo: CRMDEV - AV Live Chat (sandbox)
     </title>
     <style>
       h1{
@@ -10,7 +10,7 @@
     </style>
   </head>
   <body>
-    <h2> MIAW Demo: CRMDEV (sandbox)</h2>
+    <h2> MIAW Demo: CRMDEV - AV Live Chat (sandbox)</h2>
     
     <script type='text/javascript'>
     	function initEmbeddedMessaging() {
@@ -19,8 +19,8 @@
     
     			embeddedservice_bootstrap.init(
 				'00DOz000004sefh',
-				'Github',
-				'https://legrandav--crmdev.sandbox.my.site.com/ESWGithub1722163913919',
+				'AV_Live_Chat_Github',
+				'https://legrandav--crmdev.sandbox.my.site.com/ESWAVLiveChatGithub1731992000216',
 				{
 					scrt2URL: 'https://legrandav--crmdev.sandbox.my.salesforce-scrt.com'
 				}
@@ -30,6 +30,6 @@
     		}
     	};
     </script>
-    <script type='text/javascript' src='https://legrandav--crmdev.sandbox.my.site.com/ESWGithub1722163913919/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+    <script type='text/javascript' src='https://legrandav--crmdev.sandbox.my.site.com/ESWAVLiveChatGithub1731992000216/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
 </html>
