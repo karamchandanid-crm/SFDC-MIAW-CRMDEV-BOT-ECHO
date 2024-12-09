@@ -32,9 +32,9 @@
 	};
     </script>
     <script type='text/javascript' src='https://legrandav--crmdev.sandbox.my.site.com/ESWGithub1722163913919/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-	// Create a custom button or invitation to launch the web chat client.
+	<!-- Create a custom button or invitation to launch the web chat client. -->
 	<button id="launchChatButton" onclick="launchChat()">Click to contact support</button>
-	// Call Launch Chat API.
+	<!-- Call Launch Chat API. -->
 	<script>
 	    function launchChat() {
 	    	embeddedservice_bootstrap.utilAPI.showChatButton();
