@@ -14,7 +14,10 @@
     <script type='text/javascript'>
     	function initEmbeddedMessaging() {
 		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US',
+			// Override default behavior and hide the chat button at initialization
+			embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
+			// Messaging for Web init call
 			embeddedservice_bootstrap.init(
 				'00DOz000004sefh',
 				'Github',
@@ -34,6 +37,7 @@
 	// Call Launch Chat API.
 	<script>
 	    function launchChat() {
+	    	embeddedservice_bootstrap.utilAPI.showChatButton();
 	        embeddedservice_bootstrap.utilAPI.launchChat()
 	            .then(() => {
 	                // Success handler used to perform actions
