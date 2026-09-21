@@ -19,7 +19,7 @@
             embeddedservice_bootstrap.init(
                 '00DgP000002KidF',
                 'Github',
-                'https://legrandav--fullsandbo.sandbox.my.site.com/ESWGithub1722163913919',
+                'https://legrandav--fullsandbo.sandbox.my.site.com/ESWLiveChatEBDeploymen1729599466901',
                 {
                     scrt2URL: 'https://legrandav--fullsandbo.sandbox.my.salesforce-scrt.com'
                 }
@@ -29,7 +29,7 @@
         }
     };
 </script>
-<script type='text/javascript' src='https://legrandav--fullsandbo.sandbox.my.site.com/ESWGithub1722163913919/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://legrandav--fullsandbo.sandbox.my.site.com/ESWLiveChatEBDeploymen1729599466901/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 	<!-- Create a custom button or invitation to launch the web chat client. -->
 	<button id="launchChatButton" onclick="launchChat()">Click to contact support</button>
 	<!-- Call Launch Chat API. -->
