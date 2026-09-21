@@ -12,24 +12,24 @@
   <body>
     <h2> MIAW Demo: FULL (sandbox)</h2>
     <script type='text/javascript'>
-    function initEmbeddedMessaging() {
-        try {
-            embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-            embeddedservice_bootstrap.init(
-                '00DgP000002KidF',
-                'Github',
-                'https://legrandav--fullsandbo.sandbox.my.site.com/ESWLiveChatEBDeploymen1729599466901',
-                {
-                    scrt2URL: 'https://legrandav--fullsandbo.sandbox.my.salesforce-scrt.com'
-                }
-            );
-        } catch (err) {
-            console.error('Error loading Embedded Messaging: ', err);
-        }
-    };
+			embeddedservice_bootstrap.init(
+				'00DgP000002KidF',
+				'Github_AV_Live_Chat_Messaging_Channel',
+				'https://legrandav--fullsandbo.sandbox.my.site.com/ESWGithubAVLiveChatMe1740465959796',
+				{
+					scrt2URL: 'https://legrandav--fullsandbo.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
 </script>
-<script type='text/javascript' src='https://legrandav--fullsandbo.sandbox.my.site.com/ESWLiveChatEBDeploymen1729599466901/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://legrandav--fullsandbo.sandbox.my.site.com/ESWGithubAVLiveChatMe1740465959796/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 	<!-- Create a custom button or invitation to launch the web chat client. -->
 	<button id="launchChatButton" onclick="launchChat()">Click to contact support</button>
 	<!-- Call Launch Chat API. -->
